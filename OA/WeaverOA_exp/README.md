@@ -37,7 +37,7 @@ python3 main.py -u url
 
 ## 参考
 
-https://github.com/z1un/weaver_exp(主作者)
+主作者：https://github.com/z1un/weaver_exp
 
 http://wiki.peiqi.tech/
 
