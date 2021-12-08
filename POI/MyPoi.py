@@ -6,7 +6,7 @@ import os
 import shutil
 
 # TODO 替换为上面申请的密钥
-amap_web_key = '7df970f74bbc702d1376644c8006d6d0'
+amap_web_key = ''
 poi_search_url = "http://restapi.amap.com/v3/place/text"
 poi_boundary_url = "https://ditu.amap.com/detail/get/detail"
 #from transCoordinateSystem import gcj02_to_wgs84
